@@ -1,0 +1,7 @@
+name: learn-github-actions2
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest2
+    steps:
+      - run: echo "this is pen2"
